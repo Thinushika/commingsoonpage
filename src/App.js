@@ -1,6 +1,6 @@
 import React from "react"
 import css from "./App.module.css"
-import bgImage from './assets/bg.png'
+import bgImage from './assets/bg.jpg'
 import logo from './assets/logo.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -16,10 +16,10 @@ function App() {
        className={css.backgroundImage}
        style={{
         backgroundImage:`url(${bgImage})`,
-        position:"fixed",
+        
         backgroundSize:"cover",
-        width:"100%",
-        height:"464px",
+        width:"auto",
+        // height:"auto",
         backgroundSize:"cover",
         // top:"10px"
         // backgroundPosition: "top"
@@ -56,9 +56,14 @@ function App() {
       WELCOME TO POTOMIA.
     </div>
     <div className={css.youtubeSection}>
-    {/* <div className={css.playerwrapper}> */}
-    <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' className={css.player}/>
-      {/* </div> */}
+    <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url='https://www.youtube.com/watch?v=HRtC2sDiKqM'
+          width='100%'
+          height='100%'
+        />
+      </div>
     </div>
     <div className={css.footerIcons}>
       <FontAwesomeIcon icon={faTwitter} className={css.icon} />
@@ -67,6 +72,7 @@ function App() {
       <FontAwesomeIcon icon={faDiscord} className={css.icon} />
       <FontAwesomeIcon icon={faFontAwesome} className={css.icon} />
     </div>
+    <div className={css.empty}></div>
  </div> 
     </div>
     {/* About section */}

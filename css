@@ -1,0 +1,572 @@
+
+@media only screen and (max-width: 1080px) {
+    .backgroundImage{
+       height: 672px;
+    }
+    .NavBar{
+       display: flex;
+       justify-content: space-between;
+       padding: 30px;
+       margin-right: 50px;
+       /* position:absolute; */
+       /* position: relative; */
+    }
+    .icon{
+       cursor: pointer;
+       color: #fff;
+       margin-left: 10px
+    }
+    .icon :hover{
+       cursor: pointer;
+       color: aqua;
+    }
+    .socialIconsWrapper{
+       margin-left: 10%;
+       /* display: none; */
+    }
+    .headerSection{
+       display: flex;
+       /* position: absolute; */
+       /* z-index: 5; */
+       justify-content: center;
+       align-items: center;
+       color: #0101;
+       flex-direction: column;
+       margin-top: 40px;
+       /* overflow-y: scroll; */
+    }
+    .styledHeaderText{
+       font-size: 60px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .headerTextTitle{
+       font-size: 60px;
+       font-weight: bold;
+       color: #fff;
+       z-index: 3;
+       font-family: 'Sen', sans-serif;
+       /* background-position:  */
+    }
+    .headerTextSubTitle{
+       font-size: 20px;
+        color: #fff;
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 0.9px;
+       margin-top: 30px;
+       font-family: 'Sen', sans-serif;
+    }
+    .headerTextSubTitle span {
+       font-weight: bold;
+       /* letter-spacing: 0px */
+    }
+    
+    .aboutsection{
+       position: relative;
+       top:100px;
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+    
+    }
+    .aboutText{
+       margin-top: 80px;
+       color: #fff;
+       font-size: 60px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+    .youtubeSection{
+       width: 700px;
+       height: 400px;
+       position: relative;
+       margin-top: 20px;
+       -webkit-box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25); 
+    box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25);
+    border-radius: 3px;
+    }
+    .player-wrapper {
+       position: relative;
+       padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+     }
+     
+     .react-player {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100px;
+       height: 100px;
+     }
+     .footerIcons{
+        margin-top: 50px;
+     }
+    
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .NavBar{
+       display: flex;
+       justify-content: space-between;
+       padding: 30px;
+       margin-right: 50px;
+       /* position:absolute; */
+       /* position: relative; */
+    }
+    .icon{
+       cursor: pointer;
+       color: #fff;
+       margin-left: 10px
+    }
+    .icon :hover{
+       cursor: pointer;
+       color: aqua;
+    }
+    .socialIconsWrapper{
+       margin-left: 10%;
+       /* display: none; */
+    }
+    .headerSection{
+       display: flex;
+       /* position: absolute; */
+       /* z-index: 5; */
+       justify-content: center;
+       align-items: center;
+       color: #0101;
+       flex-direction: column;
+       margin-top: 40px;
+       /* overflow-y: scroll; */
+    }
+    .styledHeaderText{
+       font-size: 30px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .headerTextTitle{
+       font-size: 30px;
+       font-weight: bold;
+       color: #fff;
+       z-index: 3;
+       font-family: 'Sen', sans-serif;
+       /* background-position:  */
+    }
+    .headerTextSubTitle{
+       font-size: 17px;
+        color: #fff;
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 0.9px;
+       margin-top: 30px;
+       font-family: 'Sen', sans-serif;
+    }
+    .headerTextSubTitle span {
+       font-weight: bold;
+       /* letter-spacing: 0px */
+    }
+    
+    .aboutsection{
+       position: relative;
+       top:100px;
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+    
+    }
+    .aboutText{
+       color: #fff;
+       font-size: 30px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+       margin-bottom: 50px;
+    }
+    .youtubeSection{
+       position: relative;
+       margin-top: 20px;
+       -webkit-box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25); 
+    box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25);
+    border-radius: 3px;
+    width: 332px;
+    height: 186px;
+    }
+    .player-wrapper {
+       position: relative;
+       padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+     }
+     
+     .react-player {
+       position: absolute;
+       top: 0;
+       left: 0;
+       /* height: 140px;
+       width: 180px; */
+     }
+     .footerIcons{
+        margin-top: 70px;
+     }
+    
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    .backgroundImage{
+       height: 490px;
+    }
+    .NavBar{
+       display: flex;
+       justify-content: space-between;
+       padding: 30px;
+       margin-right: 50px;
+       /* position:absolute; */
+       /* position: relative; */
+    }
+    .icon{
+       cursor: pointer;
+       color: #fff;
+       margin-left: 10px
+    }
+    .icon :hover{
+       cursor: pointer;
+       color: aqua;
+    }
+    .socialIconsWrapper{
+       margin-left: 10%;
+       /* display: none !important; */
+    }
+    .headerSection{
+       display: flex;
+       /* position: absolute; */
+       /* z-index: 5; */
+       justify-content: center;
+       align-items: center;
+       color: #0101;
+       flex-direction: column;
+       margin-top: 40px;
+       /* overflow-y: scroll; */
+    }
+    .styledHeaderText{
+       font-size: 30px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .headerTextTitle{
+       font-size: 30px;
+       font-weight: bold;
+       color: #fff;
+       z-index: 3;
+       font-family: 'Sen', sans-serif;
+       /* background-position:  */
+    }
+    .headerTextSubTitle{
+       font-size: 17px;
+        color: #fff;
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 0.9px;
+       margin-top: 30px;
+       font-family: 'Sen', sans-serif;
+    }
+    .headerTextSubTitle span {
+       font-weight: bold;
+       /* letter-spacing: 0px */
+    }
+    
+    .aboutsection{
+       position: relative;
+       top:100px;
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+    }
+    .aboutText{
+       color: #fff;
+       font-size: 30px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       z-index: 3;
+       letter-spacing: 2.5px;
+       margin-top: 20px;
+       font-family: 'Source Sans Pro', sans-serif;
+       margin-bottom: 50px;
+    }
+    .youtubeSection{
+       position: relative;
+       margin-top: 20px;
+       -webkit-box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25); 
+       box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25);
+       border-radius: 3px;
+    }
+    .player-wrapper {
+       position: relative;
+       padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+     }
+     
+     .react-player {
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 100px;
+       width: 200px;
+     }
+     .footerIcons{
+        margin-top: 50px;
+     }
+    
+ }
+ 
+ @media only screen and (min-width: 536px){
+    .backgroundImage{
+       height: 490px;
+    }
+    .NavBar{
+       display: flex;
+       justify-content: space-between;
+       padding: 30px;
+       margin-right: 50px;
+       /* position:absolute; */
+       /* position: relative; */
+    }
+    .icon{
+       cursor: pointer;
+       color: #fff;
+       margin-left: 10px
+    }
+    .icon :hover{
+       cursor: pointer;
+       color: aqua;
+    }
+    .socialIconsWrapper{
+       margin-left: 10%;
+       /* display: none !important; */
+    }
+    .headerSection{
+       display: flex;
+       /* position: absolute; */
+       /* z-index: 5; */
+       justify-content: center;
+       align-items: center;
+       color: #0101;
+       flex-direction: column;
+       margin-top: 40px;
+       /* overflow-y: scroll; */
+    }
+    .styledHeaderText{
+       font-size: 20px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .headerTextTitle{
+       font-size: 20px !important;
+       font-weight: bold;
+       color: #fff;
+       z-index: 3;
+       font-family: 'Sen', sans-serif;
+       /* background-position:  */
+    }
+    .headerTextSubTitle{
+       font-size: 17px;
+        color: #fff;
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 0.9px;
+       margin-top: 30px;
+       font-family: 'Sen', sans-serif;
+    }
+    .headerTextSubTitle span {
+       font-weight: bold;
+       /* letter-spacing: 0px */
+    }
+    
+    .aboutsection{
+       position: relative;
+       top:100px;
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+    }
+    .aboutText{
+       color: #fff;
+       font-size: 30px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       z-index: 3;
+       letter-spacing: 2.5px;
+       margin-top: 20px;
+       font-family: 'Source Sans Pro', sans-serif;
+       margin-bottom: 50px;
+    }
+    .youtubeSection{
+       position: relative;
+       margin-top: 20px;
+       -webkit-box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25); 
+       box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25);
+       border-radius: 3px;
+    }
+    .player-wrapper {
+       position: relative;
+       padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+     }
+     
+     .react-player {
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 100px;
+       width: 200px;
+     }
+     .footerIcons{
+        margin-top: 50px;
+     }
+ } 
+ 
+ @media only screen and (max-width: 390px) {
+    .backgroundImage{
+       height: 397px;
+    }
+    .NavBar{
+       display: flex;
+       justify-content: space-between;
+       padding: 30px;
+       margin-right: 50px;
+       /* position:absolute; */
+       /* position: relative; */
+    }
+    .icon{
+       cursor: pointer;
+       color: #fff;
+       margin-left: 10px
+    }
+    .icon :hover{
+       cursor: pointer;
+       color: aqua;
+    }
+    .socialIconsWrapper{
+       margin-left: 10%;
+       display: none;
+    }
+    .headerSection{
+       display: flex;
+       /* position: absolute; */
+       /* z-index: 5; */
+       justify-content: center;
+       align-items: center;
+       color: #0101;
+       flex-direction: column;
+       margin-top: 40px;
+       /* overflow-y: scroll; */
+    }
+    .styledHeaderText{
+       font-size: 20px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .headerTextTitle{
+       font-size: 20px;
+       font-weight: bold;
+       color: #fff;
+       z-index: 3;
+       font-family: 'Sen', sans-serif;
+       /* background-position:  */
+    }
+    .headerTextSubTitle{
+       font-size: 11px;
+        color: #fff;
+       color: #fff;
+       z-index: 3;
+       letter-spacing: 0.9px;
+       margin-top: 30px;
+       font-family: 'Sen', sans-serif;
+    }
+    .headerTextSubTitle span {
+       font-weight: bold;
+       /* letter-spacing: 0px */
+    }
+    
+    .aboutsection{
+       position: relative;
+       top:100px;
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+    
+    }
+    .aboutText{
+       color: #fff;
+       font-size: 20px;
+       font-weight: 900;
+       font-style: italic;
+       /* z-index: 3; */
+       z-index: 3;
+       letter-spacing: 2.5px;
+       font-family: 'Source Sans Pro', sans-serif;
+       margin-top: -5px;
+    }
+    .youtubeSection{
+       position: relative;
+       margin-top: 20px;
+       -webkit-box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25); 
+    box-shadow: 5px 5px 23px 9px rgba(255,128,246,0.65), -8px 19px 29px 16px rgba(141,83,169,0.25);
+    border-radius: 3px;
+    width: 311px;
+    height: 160px;
+    }
+    .player-wrapper {
+       position: relative;
+       padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+     }
+     
+     .react-player {
+       position: absolute;
+       top: 0;
+       left: 0;
+       height:209px;
+       width: 293px;
+     }
+     .footerIcons{
+        margin-top: 100px;
+     }
+    
+ }
