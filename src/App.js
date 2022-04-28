@@ -56,7 +56,8 @@ function App() {
       WELCOME TO POTOMIA.
     </div>
     <div className={css.youtubeSection}>
-    <div className='player-wrapper'>
+    <div>
+    {/* className='player-wrapper' */}
         <ReactPlayer
           className='react-player'
           url='https://www.youtube.com/watch?v=HRtC2sDiKqM'
